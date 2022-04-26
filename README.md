@@ -1,6 +1,6 @@
 # Formulário animado com JS puro e CSS Animation
 
-## Desafios
+## Desafios para esse projeto
 
 - [X] Fazer o formulário aparecer, suavemente, quando a página abrir
 - [X] Fazer os campos aparecem da esquerda pra direita, suavizando a entrada e fazendo-os entrar em momentos distintos
@@ -9,6 +9,12 @@
 - [X] Adicionar um efeito diferente de timing para a saída do formulário
 - [X] Fazer o formulário dizer não-não (vibrar) caso haja campos vazios.
 - [X] Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (fora do campo de visão) e vão para cima da tela (que saia do campo de visão também). _Detalhes_: Deve ter tamanhos diferentes, sairem em momentos diferentes, terem timing diferente, animação contínua.
+
+Online em: https://animated-login-seven.vercel.app
+
+
+![image](https://user-images.githubusercontent.com/101595139/165390854-608dc8e1-6a76-48c9-b925-a20a1087f245.png)
+
 
 
 
