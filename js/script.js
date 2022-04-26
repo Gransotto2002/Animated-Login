@@ -6,7 +6,15 @@ btnLogin.addEventListener('click', event => {
 
   const fields = [...document.querySelectorAll('.input-block input')]
   fields.forEach(field => {
-    if (field.value == '') form.classList.add('validate-error')
+    if (field.value == '') {
+    form.classList.add('validate-error')
+    field.style.border = '0.5px solid red'
+  }
+    field.addEventListener('keyup', () => {
+      if(field.value !== ''){
+        field.style.border = '1px solid grey'
+      }
+    })
   })
   
   const formError = document.querySelector('.validate-error')
